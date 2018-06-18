@@ -24,7 +24,7 @@ def make_5m_list(size) :
 set3m = set(make_3m_list(size))
 set5m = set(make_5m_list(size))
 set3_5m = set3m | set5m
-print('3 /', len(set3m), ',', '5 /', len(set5m), ',', '3 & 5 /', len(set3_5m))
+print('3 : %d / 5 : %d / 3 or 5 : %d'%(len(set3m), len(set5m), len(set3_5m)))
 
 list_t = list(set3_5m)
 
