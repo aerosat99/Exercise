@@ -5,7 +5,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 size = int(input('Max = '))
 
-list0 = list(range(1, size + 1))
+list0 = list(range(1, size + 1))   # list(range(1000)) -> 0~999까지 1000개 / list(range(1,1001)) -> 1부터 1000까지 1000
 
 def make_3m_list(size) :
     list3m = []
