@@ -23,8 +23,8 @@ def make_5m_list(size) :
 
 set3m = set(make_3m_list(size))
 set5m = set(make_5m_list(size))
-set3_5m = set3m | set5m
-print('3 : %d / 5 : %d / 3 or 5 : %d'%(len(set3m), len(set5m), len(set3_5m)))
+set3_5m = set3m | set5m           # 중복을 한개만 놔두고 합집합으로 
+print('3 : %d / 5 : %d / 3 or 5 : %d'%(len(set3m), len(set5m), len(set3_5m))) # 집합의 원소 개수는 len으로 센다
 
 list_t = list(set3_5m)
 
